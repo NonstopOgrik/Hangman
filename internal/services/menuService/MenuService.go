@@ -2,7 +2,7 @@ package menuService
 
 import (
 	"fmt"
-	gameservice "hangman/internal/services/gameService"
+	gameService "hangman/internal/services/gameService"
 	"os"
 )
 
@@ -13,7 +13,7 @@ func Start() {
 		fmt.Println("2.Выйти")
 		fmt.Fscan(os.Stdin, &state)
 		if state {
-			gameservice.GameLogic()
+			gameService.GameLogic()
 		} else {
 			break
 		}

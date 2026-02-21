@@ -7,8 +7,3 @@ type CurrentGameStruct struct {
 	PublicGameResult   bool
 	PublicGameState    bool
 }
-
-type Letter struct {
-	PublicWord string
-	IsOpen     bool
-}
